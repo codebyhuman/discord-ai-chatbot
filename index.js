@@ -20,7 +20,6 @@ client.once('ready', () => {
 });
 
 
-
 async function extractTextFromImage(url) {
   try {
     const image = await fetch(url).then(res => res.buffer());
